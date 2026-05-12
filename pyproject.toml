@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tkblocks"
+version = "0.1.0"
+description = "A scrollable, collapsible section-based content renderer for tkinter."
+authors = [{name = "Konstantinos Katsos", email = "konstan.katsos@gmail.com"}]
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+]
+dependencies = [
+    "pillow",
+    "pydantic",
+]
+
+[project.optional-dependencies]
+yaml = ["pyyaml"]
+requests = ["requests"]
+dev = ["pytest"]
