@@ -2,23 +2,23 @@
 
 A scrollable, collapsible section-based content renderer for tkinter.
 
-Ever found yourself almost ready to ship a tk app and having to deal with more code just to include a plain FAQ?
-Deal with it no more.
+tkblocks is a simple, tested and predictable tkinter implementation that complies 
+with your app's existing theme and style.
 
-tkblocks is a simple tkinter implementation, tested and predictable.
-Import tkblocks
-Pass a notebook tab or plain frame.
-Provide content with json, yaml, toml or directly through python API (*example below).
-This package will handle the rendering and comply with master theme/style.
+Drop-in collapsible section panels for tkinter apps — load content from 
+Python, JSON, YAML, or TOML.
 
-Usefull for:
+- Import tkblocks
+- Pass a notebook tab or plain frame.
+- Provide content with json, yaml, toml or python API.
 
-Changelogs / release notes
-FAQ panels
-Settings/help dialogs
-Onboarding flows
-Dashboards with collapsible data sections
-Debug/log viewers
+**Useful for:**
+- FAQ panels
+- Changelogs / release notes
+- Settings/help dialogs
+- Onboarding flows
+- Dashboards with collapsible read-only data sections
+- Debug/log viewers
 
 ## Installation
 
