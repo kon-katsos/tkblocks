@@ -2,11 +2,11 @@
 
 A scrollable, collapsible section-based content renderer for tkinter.
 
-tkblocks is a simple, tested and predictable tkinter implementation that complies 
-with your app's existing theme and style.
-
 Drop-in collapsible section panels for tkinter apps — load content from 
 Python, JSON, YAML, or TOML.
+
+tkblocks is a simple, tested and predictable tkinter implementation that complies 
+with your app's existing theme and style.
 
 - Import tkblocks
 - Pass a notebook tab or plain frame.
