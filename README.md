@@ -1,6 +1,4 @@
-![Project Status](https://img.shields.io/badge/status-alpha-orange)
-
-# tkblocks
+# tkblocks ![Project Status](https://img.shields.io/badge/status-alpha-orange)
 
 A scrollable, collapsible section-based content renderer for tkinter.
 

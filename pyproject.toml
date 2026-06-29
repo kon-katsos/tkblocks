@@ -4,20 +4,27 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tkblocks"
-version = "0.1.0"
+version = "0.1.1"
 description = "A scrollable, collapsible section-based content renderer for tkinter."
 authors = [{name = "Konstantinos Katsos", email = "konstan.katsos@gmail.com"}]
 requires-python = ">=3.11"
 license = {file = "LICENSE"}
+keywords = ["tkinter", "gui", "widgets", "collapsible", "sections"]
 classifiers = [
     "License :: OSI Approved :: Apache Software License",
 ]
+readme = "README.md"
 dependencies = [
-    "pillow",
-    "pydantic",
+    "pillow>=9.0",
+    "pydantic>=2.0",
 ]
 
 [project.optional-dependencies]
 yaml = ["pyyaml"]
 requests = ["requests"]
 dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/kon-katsos/tkblocks"
+Repository = "https://github.com/kon-katsos/tkblocks"
+Issues = "https://github.com/kon-katsos/tkblocks/issues"
