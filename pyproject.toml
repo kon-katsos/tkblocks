@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tkblocks"
-version = "0.1.1"
+version = "0.1.2"
 description = "A scrollable, collapsible section-based content renderer for tkinter."
 authors = [{name = "Konstantinos Katsos", email = "konstan.katsos@gmail.com"}]
 requires-python = ">=3.11"
-license = {file = "LICENSE"}
+license = "Apache-2.0"
 keywords = ["tkinter", "gui", "widgets", "collapsible", "sections"]
 classifiers = [
     "License :: OSI Approved :: Apache Software License",
