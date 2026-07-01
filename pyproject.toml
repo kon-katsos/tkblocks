@@ -10,9 +10,6 @@ authors = [{name = "Konstantinos Katsos", email = "konstan.katsos@gmail.com"}]
 requires-python = ">=3.11"
 license = "Apache-2.0"
 keywords = ["tkinter", "gui", "widgets", "collapsible", "sections"]
-classifiers = [
-    "License :: OSI Approved :: Apache Software License",
-]
 readme = "README.md"
 dependencies = [
     "pillow>=9.0",
