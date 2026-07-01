@@ -24,6 +24,10 @@ yaml = ["pyyaml"]
 requests = ["requests"]
 dev = ["pytest"]
 
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tkblocks*"]
+
 [project.urls]
 Homepage = "https://github.com/kon-katsos/tkblocks"
 Repository = "https://github.com/kon-katsos/tkblocks"
